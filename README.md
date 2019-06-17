@@ -2,6 +2,8 @@
 
 Project that reproduces a bug where AudioFetch SDK would stop other apps from playing music when the SDK is instantiated or when the app that uses the SDK becomes active.
 
+To run this project, clone it, open `AudioFetchSDKTest.xcworkspace`, set your development team in the target settings and run on a physical device.
+
 ## Bug: stops audio playback from other apps on init
 
 Steps to reproduce:
